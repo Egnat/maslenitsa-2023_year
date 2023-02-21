@@ -135,6 +135,7 @@ color:#F5F4FC
   height: 304px;
   top: 835px;
   right: 954px;
+  border-radius: 7px;
   margin: 0;
   background-image: url(../public/images/sun.png);
   background-size: cover;
