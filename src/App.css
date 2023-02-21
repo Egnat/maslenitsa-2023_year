@@ -311,7 +311,7 @@ box-shadow:inset 1280px 844px rgba(0 0 0 / 70%)
 .screen-three__container-content {
 display:flex;
 flex-direction:column;
-width:500;
+width:600px;
 padding-top:61px;
 gap:22px
 }
@@ -326,7 +326,7 @@ height:48px
 }
 
 .screen-three__h2 {
-width:500px;
+width:600px;
 margin:0;
 font-weight:600;
 font-size:40px;
