@@ -131,7 +131,7 @@ transform:matrix(-1,0,0,1,0,0)
 }
 
 .header-container-text {
-width:647px;
+width:749px;/*647px*/
 padding-left:81px;
 margin-right:40px;
 font-weight:800;
