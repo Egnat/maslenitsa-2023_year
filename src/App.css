@@ -59,7 +59,7 @@ box-shadow:inset 1280px 844px rgb(9 16 255 / 21%)/*настраивает цве
 }
 
 .header-container {
-padding-top:55px
+padding-top:55px;
 }
 
 .header-menu {
@@ -123,8 +123,9 @@ width:1280p
 
 .header-container-girl {
 display:block;
-width:583px;
+width:728px;
 height:682px;
+margin-right: -85px;
 background-image:url(../public/images/girl.png);
 background-size:cover;
 transform:matrix(-1,0,0,1,0,0)
@@ -132,12 +133,25 @@ transform:matrix(-1,0,0,1,0,0)
 
 .header-container-text {
 width:749px;/*647px*/
-padding-left:81px;
-margin-right:40px;
+padding-bottom: 86px;
 font-weight:800;
 font-size:48px;
-line-height:135.9%;
+line-height:116.9%;
 color:#F5F4FC
+}
+
+.screen-two__container__content {
+display:flex;
+flex-direction:column;
+justify-content:space-evenly;
+align-items:center;
+ackground:linear-gradient(180.12deg,#124ae9 20%,#FFC700 9%)
+}
+
+a-sun {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .screen-two__img-sun {
@@ -187,15 +201,6 @@ animation: 5s linear 0 normal none infinite running rot;
      transform: rotate(360deg);
    }
 }*/
-
-
-.screen-two__container__content {
-display:flex;
-flex-direction:column;
-justify-content:space-evenly;
-align-items:center;
-ackground:linear-gradient(180.12deg,#124ae9 20%,#FFC700 9%)
-}
 
 .screen-two__text-h2 {
 width:474px;

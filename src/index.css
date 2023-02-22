@@ -1,4 +1,4 @@
-/*
+
 ::-webkit-scrollbar {
 width:.1px;
 height:5px;
@@ -30,7 +30,7 @@ margin:0 auto
 }
 
 section {
-width:1280px;
+width:1280p;
 margin-top:140px
 }
 
@@ -39,7 +39,7 @@ box-sizing:border-box
 }
 
 html {
-width:1280px;
+min-width:1280px;
 background-color:#df15d9;
 }
 
@@ -56,11 +56,11 @@ font-family:'Montserrat'
 height:821px;
 background-image:url(../public/images/Pyotr_Nikolayevich_Gruzinsky_-_Maslenitsa.jpg);
 background-size:cover;
-box-shadow:inset 1280px 844px rgb(9 16 255 / 21%)/*настраивает цвет боди где нужно, сверху, снизу и по бокам*
+box-shadow:inset 1280px 844px rgb(9 16 255 / 21%)/*настраивает цвет боди где нужно, сверху, снизу и по бокам*/
 }
 
 .header-container {
-padding-top:55px
+padding-top:55px;
 }
 
 .header-menu {
@@ -119,13 +119,14 @@ display:flex;
 justify-content:space-evenly;
 flex-direction:row-reverse;
 align-items:center;
-width:1280px
+width:1280p
 }
 
 .header-container-girl {
 display:block;
-width:583px;
+width:728px;
 height:682px;
+margin-right: -85px;
 background-image:url(../public/images/girl.png);
 background-size:cover;
 transform:matrix(-1,0,0,1,0,0)
@@ -133,12 +134,25 @@ transform:matrix(-1,0,0,1,0,0)
 
 .header-container-text {
 width:749px;/*647px*/
-padding-left:81px;
-margin-right:40px;
+padding-bottom: 86px;
 font-weight:800;
 font-size:48px;
-line-height:135.9%;
+line-height:116.9%;
 color:#F5F4FC
+}
+
+.screen-two__container__content {
+display:flex;
+flex-direction:column;
+justify-content:space-evenly;
+align-items:center;
+ackground:linear-gradient(180.12deg,#124ae9 20%,#FFC700 9%)
+}
+
+a-sun {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .screen-two__img-sun {
@@ -187,16 +201,7 @@ animation: 5s linear 0 normal none infinite running rot;
    100% {
      transform: rotate(360deg);
    }
-}*
-
-
-.screen-two__container__content {
-display:flex;
-flex-direction:column;
-justify-content:space-evenly;
-align-items:center;
-ackground:linear-gradient(180.12deg,#124ae9 20%,#FFC700 9%)
-}
+}*/
 
 .screen-two__text-h2 {
 width:474px;
@@ -378,7 +383,7 @@ color: #fff;
 @media screen and (max-width: 1300px) {}
 
 @media screen and (max-width: 1999px) {
-  screen-two__img-sun {
+  sun {
     right: 867px;
   }
 }
@@ -436,4 +441,10 @@ color: #fff;
     right:49px;
   }
 }
-*/
+
+@media screen and (min-width: 1280p) {
+  header-container-text {padding-left: 134p;}
+  sun {right: 1071px;}
+  restangles {left: 494px;}
+}
+
