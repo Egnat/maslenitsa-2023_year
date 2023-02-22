@@ -236,12 +236,12 @@ margin:0
 }
 
 .shadow {
-position:;
+position:absolute;
 width:665px;
 height:718px;
-background:#ff000045;
+background: rgba(255, 168, 0, 0.45);
+filter: blur(135px);
 -webkit-filter:blur(135px);
-filter:blur(135px);
 z-index:-1
 }
 
