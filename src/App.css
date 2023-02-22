@@ -436,8 +436,8 @@ color: #fff;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .header-container-text {padding-left: 134px;}
-  .sun {right: 1071px;}
-  .restangles {left: 494px;}
+@media screen and (min-width: 1280p) {
+  header-container-text {padding-left: 134p;}
+  sun {right: 1071px;}
+  restangles {left: 494px;}
 }
