@@ -131,6 +131,7 @@ background-size:cover;
 transform:matrix(-1,0,0,1,0,0)
 }
 
+/*обрезка фото*/
 .girl {
 object-fit: cover;
 width: 627px;
@@ -235,10 +236,11 @@ margin:0
 }
 
 .shadow {
-position:absolute;
+position:;
 width:665px;
 height:718px;
 background:#ff000045;
+-webkit-filter:blur(135px);
 filter:blur(135px);
 z-index:-1
 }
@@ -247,7 +249,7 @@ z-index:-1
 width:544px;
 height:424px;
 border-radius:10px;
-ox-shadow:0 0 126px 7px rgba(3,255,210,0.25)
+box-shadow:0 0 122px -27px rgb(255 0 0 / 84%)
 }
 
 .man_woomen {
@@ -255,7 +257,7 @@ width:301px;
 height:284px;
 border-radius:10px;
 margin-top:16px;
-ox-shadow:0 4px 114px -7px rgba(71,8,250,0.25)
+box-shadow:0 0 150px -27px rgb(255 0 0 / 84%)
 }
 
 .greetings {
@@ -264,7 +266,7 @@ height:150px;
 border-radius:10px;
 margin-top:18px;
 margin-right:155px;
-ox-shadow:0 0 150px -27px rgba(209,8,241,0.49)
+box-shadow:0 0 150px -27px rgb(255 0 0 / 84%)
 }
 
 .restangles {
