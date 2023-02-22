@@ -131,6 +131,12 @@ background-size:cover;
 transform:matrix(-1,0,0,1,0,0)
 }
 
+.girl {
+object-fit: cover;
+width: 627px;
+height: 683px;
+}
+
 .header-container-text {
 width:749px;/*647px*/
 padding-bottom: 86px;
